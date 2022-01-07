@@ -15,6 +15,13 @@ jobs:
       - 
         name: Checkout repository
         uses: actions/checkout@v2
+        
+      - name: Get commit SHA
+        id: vars
+        shell: bash
+        run: |
+          echo "##[set-output name=branch;]$(echo ${GITHUB_REF#refs/heads/})"
+          echo "::set-output name=sha_short::$(GITHUB_SHA)"
       -
         name: Import GPG Keys
         uses: crazy-max/ghaction-import-gpg@v4
@@ -28,8 +35,7 @@ jobs:
         name: Push updated repo
         uses: EndBug/add-and-commit@v7.0.0
         with:
-          default_author: github_actions
-          committer_name: GitHub Actions
-          committer_email: actions@github.com
-          message: Updates repo to ${{ env.GITHUB_SHA }} 
+          author_name: GitHub Actions
+          author_email: actions@github.com
+          message: Updates repo to ${{ steps.vars.outputs.sha_short }}
           signoff: true
