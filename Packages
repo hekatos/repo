@@ -1,16 +1,16 @@
 Package: org.hekatos.axisbankpatch
 Architecture: iphoneos-arm
-Version: 1.0.0
+Version: 1.0.1
 Section: Tweaks
 Maintainer: joshuah345 <joshuah345@gmail.com>
 Installed-Size: 72
 Depends: mobilesubstrate
-Filename: ./pool/org.hekatos.axisbankpatch_1.0.0_iphoneos-arm.deb
-Size: 1806
-MD5sum: 437fc427d8165e4f5bd84117960d9880
-SHA1: 9ebd846206a1eecac9e0c07d15634c0d5c86a285
-SHA256: ffa6a265fca129454eea5859a534da6db6e089b4dfe37ec3d0a6770bc35e8390
-SHA512: b51857e62dc50e888a47cbbb8f36a2da183eb8b8c195b5e8231042a23a57b8d9bed677804029b209f3f7b6ae63798046fa07401013fb6d4696546b25241383e9
+Filename: ./pool/org.hekatos.axisbankpatch_1.0.1_iphoneos-arm.deb
+Size: 1808
+MD5sum: 1328f5d74fe88e693d3f21a434280b28
+SHA1: 659756b967f2b7e4a6f684f0373a0123a4df2379
+SHA256: ebc2e206821f3333fe66e35a1ab7c5663cad31c2024f8a8644480fb801f63051
+SHA512: 276263f1f8f807706143b54dc26d6c8020593d54a30576288f0971d5481c21437aab7e13dfc7a6281be3cbae1b1d2aa373013b710f9a1855d3fcf3c446dc59fb
 Description: Simple tweak that bypasses jb detection in Axis Bank Mobile Banking.
 Name: Axis Bank Patch
 Author: Superuser1958
