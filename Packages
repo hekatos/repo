@@ -1,0 +1,17 @@
+Package: org.hekatos.uconnectbypass
+Architecture: iphoneos-arm
+Version: 0.0.1
+Section: Tweaks
+Maintainer: beerpsi, Hekatos contributors <beerpsi@duck.com>
+Installed-Size: 216
+Depends: mobilesubstrate
+Filename: ./pool/org.hekatos.uconnectbypass_0.0.1_iphoneos-arm.deb
+Size: 3814
+MD5sum: 8e9f6dd4a2d2e0c50f6216608a6d7511
+SHA1: ccca8a6774fb9c7d079b89f2913b2ebf4a5578cd
+SHA256: 994a0feeb3882ca315920f102f85338885932fc8425ef7c8cbd760e5bf592c1b
+SHA512: 64872403514d3439a1a22ec276618cf6b3edfdde8cc14e2d04bf7172a86567c58b231080fab7657a4c07c565befda2cee686f395fcbc4789a8c27b2acbc4b424
+Description: Bypasses jailbreak detection in the Uconnect app
+Name: Uconnect Jailbreak Bypass
+Author: ChosenZero
+
