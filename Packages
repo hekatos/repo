@@ -1,16 +1,16 @@
 Package: org.hekatos.axismobilepatch
 Architecture: iphoneos-arm
-Version: 1.0.0-1+debug
+Version: 1.0.0
 Section: Tweaks
 Maintainer: joshuah345 <joshuah345@gmail.com>
 Installed-Size: 152
 Depends: mobilesubstrate
-Filename: ./pool/org.hekatos.axismobilepatch_1.0.0-1+debug_iphoneos-arm.deb
-Size: 3430
-MD5sum: 8b2aeac1af594d8e1ba1861b6f854313
-SHA1: 080219afbb6089ece0c02abd63a0ce1ad9451718
-SHA256: debc5e9762b72a57b9a84bd99348ed4d9909f96775cd026f7a3ba2d4ad68a382
-SHA512: 3804bfbc59b009d5eddd3e581e199c0b00c24641273b38a1956e10bc0f09e954b7cc0a511835530036788aa439dab2f476af42eddae696105a8db0875f927eaa
+Filename: ./pool/org.hekatos.axismobilepatch_1.0.0_iphoneos-arm.deb
+Size: 2988
+MD5sum: 02f62147d96fe744b774c45b3ead28de
+SHA1: 471b82e16bbd70f43d9a09a70cb586d1f50ffb39
+SHA256: 92ca6a533e837858ca80ee3ddddb9e2ab8701bf3109d037c29d25cc305c8a4bf
+SHA512: 438e896a4c3f6f2157ca223e50c9d5d3fb64fe707cb6fd1a85be4ccfe43e78dd5e87ffc2661a0bc68eebccb5aeb2696818247269d8de75adada5326715e11259
 Description: Simple tweak that bypasses jb detection in Axis Mobile.
 Name: Axis Mobile Patch
 Author: Superuser1958
