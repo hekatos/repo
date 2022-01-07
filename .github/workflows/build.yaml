@@ -1,0 +1,32 @@
+name: Deploy manifests
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    if: "!contains(github.event.head_commit.message, 'skip-ci')"
+    runs-on: ubuntu-latest
+    concurrency:
+      group: ${{ github.workflow }}-${{ github.ref }}
+    steps:
+      -
+        name: Import GPG Keys
+        uses: crazy-max/ghaction-import-gpg@v4
+        with:
+          gpg_private_key: ${{ secrets.GPG_PRIVATE_KEY }}
+          passphrase: ${{ secrets.GPG_PASSPHRASE }}
+      - 
+        name: Build repo
+        run: bash build.sh
+      -
+        name: Push updated repo
+        uses: EndBug/add-and-commit@v7.0.0
+        with:
+          default_author: github_actions
+          committer_name: GitHub Actions
+          committer_email: actions@github.com
+          message: Updates repo to ${{ env.GITHUB_SHA }} 
+          signoff: true
