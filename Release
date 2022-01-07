@@ -1,7 +1,7 @@
 Architectures: iphoneos-arm
 Codename: hekatos
 Components: main
-Date: Fri, 07 Jan 2022 13:34:34 +0000
+Date: Fri, 07 Jan 2022 13:47:46 +0000
 Description: Combatting jailbreak detection, one tweak at a time
 Label: Hekatos
 Origin: Hekatos
@@ -10,24 +10,32 @@ Version: 1.0
 MD5Sum:
  97a78dfa5f0b80faf48c423c4f85a536              690 Packages
  a93aec8fb08a2c2393433ae9ef159391              526 Packages.bz2
+ 6f75e664efcc092ee6a0864fdd57d92d              484 Packages.gz
+ 47616ed23b0faccea9cdda3f7066cc08              509 Packages.lzma
  a5d251e1216f426465d2908fa9a95052              556 Packages.xz
  d12bd82711eec78688e8c39752262a79              477 Packages.zst
- d9e17e2b6f626cc6cf24943cfeb44321              224 Release
+ b27859d45654ae38491b349f3d281c16              224 Release
 SHA1:
  df5b29c03b302a872f0d3f5e9f4a7a0f740ec483              690 Packages
  341e9299b1653f7f07d57fd0eeb9f552765bbcdf              526 Packages.bz2
+ dd5d2ee88ffdf91bc4400c8d737ea14210fc084a              484 Packages.gz
+ d95fb7c2134b0cede16f22d544d40809d1e8c6bb              509 Packages.lzma
  c26e6ce5307a8fb513d7989f4ee6d661c50bf9bb              556 Packages.xz
  bf4c284cb015bdffd0c093489c4e73f9476e8433              477 Packages.zst
- 6f0676e52e526baae6312dcfc1310f7bd92d5c2b              224 Release
+ 51c82bce4d12b0915ab3a2476fb7619b6acff253              224 Release
 SHA256:
  72274d6d975c6bd44ecd070c70f80f5f423cf6e44c4d4f942782d4310298a01c              690 Packages
  ae3a5b8643a695e04636e7f3effdec7412ec9afa65b51741621ae837c7a6ad9a              526 Packages.bz2
+ 426e8ae769d32b26c759e5bcc382ce7a6a6ba87a583e5f10f626f40654129829              484 Packages.gz
+ 7e80fc7bc1c6b7752e8949f00fe8df9dafa4398fb1d38867d552e02c98bae824              509 Packages.lzma
  1467b58c39892f444b6ef85184c7ab8a729ed4c3a1f8ecca40b189985406d24c              556 Packages.xz
  88e447491f072f806bc8ade4366f37ea53ffb00fb556a00660520f70e3d09844              477 Packages.zst
- dbb96eda3cac436c80c5f13a2695c8fa1332a2706648ba7daf88968f16fbf467              224 Release
+ 00ac70eacd1ed157e44aa77b4f7545254496db27c2abd22ad5136a17ecd5f1b2              224 Release
 SHA512:
  e41c38014ce15cc96857263721973e8a72d4e9f8d08b6be4509ede43ba42f12d8bd1bde6dad9eed5e2542d00d6c2fbdfab4aeb475a567b1fd717cdb4e8efaf4a              690 Packages
  a69bf9f5a0eee637f8374acc88537711fcf9dfeca99727b297135933cc198f4577a0a7a0cc002cbdf07ad7f5a123e75c31bf62ded53f3a832b7e5469400708d9              526 Packages.bz2
+ ec3fdf05efc02dc1dd8f2c3b12973eaa741f3186623c0035ab45c68102f8423a665f663f6aa59edaf29ebdf438e7454fa308eee864eea396f4dcd53f967e803d              484 Packages.gz
+ e8d9bd8c8f6085de9df364acb13ad34c13740674cd1faaa0bc77cb8b6b543c96d3afb4be19ef737e031a884d1560ea9cb33030e0d9f21666ed24b439c83909a1              509 Packages.lzma
  ab4da6fa7bb925bbbbbce48011c8c87ed77b3e5f41307f94ecff57f847680dfcbc6440b0483015e5fe94106513236462380e5d5f675e9ff30dc785411795c79e              556 Packages.xz
  25f7e313a7ba55449e215d457eba8a47d0862a7f1f3d70501e72c61ae47be6064fc971604779e689a9f03b241f0874774cfba51b9caff9ed912aad34082244ae              477 Packages.zst
- 9cacbe5dbbf36c1d874aee7200d6fa22d8b53d052476658f9735968df133c4edcf2d457a04d5a2a8c8136011c76dcf15aea6eb06ecad5ffe88416176cb176e75              224 Release
+ 38cd1aa6136c3f34623537b5fe7dce38bea9f6cbda3c1581fd80a59bfba1081181bb422403626ceb7a7c26292660a23b28a823fe14b3e25c72b8067592b27587              224 Release
