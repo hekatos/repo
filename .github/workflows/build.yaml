@@ -12,6 +12,9 @@ jobs:
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
     steps:
+      - 
+        name: Checkout repository
+        uses: actions/checkout@v2
       -
         name: Import GPG Keys
         uses: crazy-max/ghaction-import-gpg@v4
