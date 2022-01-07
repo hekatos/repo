@@ -13,10 +13,11 @@ echo "[Repository] Generating Release..."
 apt-ftparchive \
         -o APT::FTPArchive::Release::Origin="Hekatos" \
         -o APT::FTPArchive::Release::Label="Hekatos" \
-        -o APT::FTPArchive::Release::Suite="./" \
+	-o APT::FTPArchive::Release::Suite="stable" \
         -o APT::FTPArchive::Release::Version="1.0" \
-        -o APT::FTPArchive::Release::Codename="ios" \
+        -o APT::FTPArchive::Release::Codename="hekatos" \
         -o APT::FTPArchive::Release::Architectures="iphoneos-arm" \
+	-o APT::FTPArchive::Release::Components="main" \
         -o APT::FTPArchive::Release::Description="Combatting jailbreak detection, one tweak at a time" \
         release . > Release
 
