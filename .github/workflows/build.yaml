@@ -21,7 +21,7 @@ jobs:
         shell: bash
         run: |
           echo "##[set-output name=branch;]$(echo ${GITHUB_REF#refs/heads/})"
-          echo "::set-output name=sha_short::$(GITHUB_SHA)"
+          echo "::set-output name=sha_short::$(git rev-parse HEAD)"
       -
         name: Import GPG Keys
         uses: crazy-max/ghaction-import-gpg@v4
@@ -36,6 +36,6 @@ jobs:
         uses: EndBug/add-and-commit@v7.0.0
         with:
           author_name: GitHub Actions
-          author_email: actions@github.com
+          author_email: github-actions[bot]@users.noreply.github.com
           message: Updates repo to ${{ steps.vars.outputs.sha_short }}
           signoff: true
