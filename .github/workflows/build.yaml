@@ -30,12 +30,15 @@ jobs:
           passphrase: ${{ secrets.GPG_PASSPHRASE }}
       - 
         name: Build repo
-        run: bash build.sh
+        run: |
+          bash build.sh
+          mkdir build
+          mv Release* build/
+          mv Packages* build/
+          mv pool build/
       -
-        name: Push updated repo
-        uses: EndBug/add-and-commit@v7.0.0
+        name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@4.2.0
         with:
-          author_name: GitHub Actions
-          author_email: github-actions[bot]@users.noreply.github.com
-          message: Updates repo to ${{ steps.vars.outputs.sha_short }}
-          signoff: true
+          branch: gh-pages
+          folder: build
