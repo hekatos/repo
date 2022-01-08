@@ -32,9 +32,6 @@ jobs:
         name: Build repo
         run: |
           bash build.sh
-          mv Release* publish/
-          mv Packages* publish/
-          mv pool publish/
       -
         name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@4.2.0

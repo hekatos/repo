@@ -1,15 +1,19 @@
 #!/bin/bash
+GPG_KEY="DF9111724E146D6F2D08314A95352E56CAF54985"
+OUTPUT_DIR="publish"
+
 script_full_path=$(dirname "$0")
 cd "$script_full_path" || exit 1
-rm Packages Packages.bz2 Packages.xz Packages.zst Release Release.gpg
+rm $OUTPUT_DIR/Packages* $OUTPUT_DIR/*Release*
+mkdir $OUTPUT_DIR/
 
 echo "[Repository] Generating Packages..."
-apt-ftparchive packages ./pool > Packages
-zstd -q -c19 Packages > Packages.zst
-xz -c9 Packages > Packages.xz
-bzip2 -c9 Packages > Packages.bz2
-gzip -nc9 Packages > Packages.gz
-lzma -c9 Packages > Packages.lzma
+apt-ftparchive packages ./pool > $OUTPUT_DIR/Packages
+zstd -q -c19 Packages > $OUTPUT_DIR/Packages.zst
+xz -c9 Packages > $OUTPUT_DIR/Packages.xz
+bzip2 -c9 Packages > $OUTPUT_DIR/Packages.bz2
+gzip -nc9 Packages > $OUTPUT_DIR/Packages.gz
+lzma -c9 Packages > $OUTPUT_DIR/Packages.lzma
 
 echo "[Repository] Generating Release..."
 apt-ftparchive \
@@ -21,13 +25,19 @@ apt-ftparchive \
         -o APT::FTPArchive::Release::Architectures="iphoneos-arm" \
         -o APT::FTPArchive::Release::Components="main" \
         -o APT::FTPArchive::Release::Description="Combatting jailbreak detection, one tweak at a time" \
-        release . >Release
+        release . > $OUTPUT_DIR/Release
 
 echo "[Repository] Signing Release using GPG Key..."
-gpg -vabs -u DF9111724E146D6F2D08314A95352E56CAF54985 -o Release.gpg Release 
-
-if [ $? -eq 0 ]; then
-        echo "[Repository] Finished"
+if ! gpg -vabs -u $GPG_KEY -o $OUTPUT_DIR/Release.gpg $OUTPUT_DIR/Release; then
+        echo "[Repository] Generated detached signature for Release"
 else
-        echo "GPG Signing Failed."
+        echo "Detached signature signing failed."
 fi
+
+if ! gpg --clearsign -u $GPG_KEY -o $OUTPUT_DIR/InRelease $OUTPUT_DIR/Release; then
+        echo "[Repository] Generated in-line signature for Release"
+else
+        echo "In-line signature signing failed."
+fi
+
+mv pool "$OUTPUT_DIR"
