@@ -8,7 +8,7 @@ apt-ftparchive packages ./pool > Packages
 zstd -q -c19 Packages > Packages.zst
 xz -c9 Packages > Packages.xz
 bzip2 -c9 Packages > Packages.bz2
-gzip -c9 Packages > Packages.gz
+gzip -nc9 Packages > Packages.gz
 lzma -c9 Packages > Packages.lzma
 
 echo "[Repository] Generating Release..."
