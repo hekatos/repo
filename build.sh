@@ -25,6 +25,7 @@ apt-ftparchive \
         -o APT::FTPArchive::Release::Architectures="iphoneos-arm" \
         -o APT::FTPArchive::Release::Components="main" \
         -o APT::FTPArchive::Release::Description="Combatting jailbreak detection, one tweak at a time" \
+        -o APT::FTPArchive::Release::Icon="https://bypass.beerpsi.me/repo/icons/hekatoslogo.png" \
         release $OUTPUT_DIR > $OUTPUT_DIR/Release
 
 echo "[Repository] Signing Release using GPG Key..."
