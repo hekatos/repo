@@ -27,10 +27,6 @@ apt-ftparchive \
         -o APT::FTPArchive::Release::Description="Combatting jailbreak detection, one tweak at a time" \
         release $OUTPUT_DIR > $OUTPUT_DIR/Release
 
-cat << "!" >> $OUTPUT_DIR/Release
-Icon: https://bypass.beerpsi.me/repo/icons/hekatoslogo.png
-!
-
 echo "[Repository] Signing Release using GPG Key..."
 if ! gpg -vabs -u $GPG_KEY -o $OUTPUT_DIR/Release.gpg $OUTPUT_DIR/Release; then
         echo "[Repository] Generated detached signature for Release"
