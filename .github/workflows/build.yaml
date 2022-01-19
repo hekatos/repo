@@ -15,6 +15,9 @@ jobs:
       - 
         name: Checkout repository
         uses: actions/checkout@v2
+      -
+        name: Install build requirements
+        run: sudo apt-get install lz4
         
       - name: Get commit SHA
         id: vars
