@@ -14,6 +14,7 @@ xz -c9 $OUTPUT_DIR/Packages > $OUTPUT_DIR/Packages.xz
 bzip2 -c9 $OUTPUT_DIR/Packages > $OUTPUT_DIR/Packages.bz2
 gzip -nc9 $OUTPUT_DIR/Packages > $OUTPUT_DIR/Packages.gz
 lzma -c9 $OUTPUT_DIR/Packages > $OUTPUT_DIR/Packages.lzma
+lz4 -c9 $OUTPUT_DIR/Packages > $OUTPUT_DIR/Packages.lz4
 
 echo "[Repository] Generating Release..."
 apt-ftparchive \
