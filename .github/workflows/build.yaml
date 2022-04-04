@@ -44,33 +44,4 @@ jobs:
           git-config-name: GitHub Actions
           git-config-email: github-actions[bot]@users.noreply.github.com
           commit-message: Updates repo to ${{ steps.vars.outputs.sha_short }}
-  rebase-last-five:
-    runs-on: ubuntu-latest
-    needs: build
-    if: github.ref == 'refs/heads/main'
-    steps:
-      - 
-        uses: actions/checkout@v3
-        with:
-          submodules: true  # Fetch Hugo themes (true OR recursive)
-          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
-          ref: gh-pages
-      -
-        name: Rebases last five commits
-        run: |
-          git config --global user.name "GitHub Actions"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          
-          b="$(git symbolic-ref --short HEAD)"
-          h="$(git rev-parse $b)" 
-          echo "Current branch: $b $h"
-          
-          c="$(git rev-parse $b~4)" 
-          echo "Recreating $b branch with initial commit $c ..." 
-          git checkout --orphan new-start $c 
-          git commit -C $c 
-          git rebase --onto new-start $c $b 
-          git branch -d new-start 
-          git reflog expire --expire=now --all; git gc --prune=now
-          
-          git push -f origin gh-pages
+          single-commit: true
