@@ -1,0 +1,109 @@
+Package: com.quanshousio.tcbnojb
+Architecture: iphoneos-arm
+Version: 0.0.1
+Section: Tweaks
+Maintainer: beerpsi <beerpsi@duck.com>
+Installed-Size: 216
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./pool/com.quanshousio.tcbnojb_0.0.1_iphoneos-arm.deb
+Size: 4426
+MD5sum: 757f8c5ca1b61f2ba868c26b2bad6abb
+SHA1: 7e67e9125d145a8711282f30ee92ef47784916cd
+SHA256: 6b3fb36032f82c067b5aaef054d267d658b7dfd8c722c487eef4e6268ba758e2
+SHA512: 0a6e3c7d90dbaa2b9538ff4a66f47ac0da27ba66da094f82bac9882228025e788d3e188b0e82ed47b33784cdac432d44132b414aebba49ee3e8acada97fb314c
+Homepage: https://github.com/quanshousio/TCBNoJB
+Description: Bypass Techcombank jailbreak detection
+Name: TCBNoJB
+Author: Quan Tran <quan@shousio.com>
+
+Package: me.playcover.genshinjailbreakbypass
+Architecture: iphoneos-arm
+Version: 1.0
+Section: Tweaks
+Maintainer: iVoider <alex@playcover.me>
+Installed-Size: 264
+Depends: mobilesubstrate
+Conflicts:
+Filename: ./pool/me.playcover.genshinjailbreakbypass_1.0_iphoneos-arm.deb
+Size: 3974
+MD5sum: 6b9ee5cba10cf29e73c858b4bf8be864
+SHA1: 262b0a42670ed55f244efc627a086980c30fe918
+SHA256: 2de58479e72531c2dc2a9a0b8cfc3b0ff0d1ba21bb76c8be33e8756c1b325374
+SHA512: eda4fb4983aba2d639d08ad7950ccedd120995b9ba6d9b8373acbc5f92d5d279c1b7d06dcb87029707ab88abc7414f018d454fccc896aa67ff98dad5adcd7080
+Homepage: https://playcover.me/
+Description: Bypass "Data error, please login again" message
+Name: Genshin Jailbreak Bypass
+Author: iVoider <alex@playcover.me>
+Depiction: https://playcover.me/me.playcover.genshinjailbreakbypass.deb
+Icon: https://github.com/hekatos/repo/raw/main/publish/icons/GenshinJailbreakBypass.png
+
+Package: org.hekatos.axisbankpatch
+Architecture: iphoneos-arm
+Version: 1.0.1
+Section: Tweaks
+Maintainer: joshuah345 <joshuah345@gmail.com>
+Installed-Size: 72
+Depends: mobilesubstrate
+Filename: ./pool/org.hekatos.axisbankpatch_1.0.1_iphoneos-arm.deb
+Size: 1808
+MD5sum: 1328f5d74fe88e693d3f21a434280b28
+SHA1: 659756b967f2b7e4a6f684f0373a0123a4df2379
+SHA256: ebc2e206821f3333fe66e35a1ab7c5663cad31c2024f8a8644480fb801f63051
+SHA512: 276263f1f8f807706143b54dc26d6c8020593d54a30576288f0971d5481c21437aab7e13dfc7a6281be3cbae1b1d2aa373013b710f9a1855d3fcf3c446dc59fb
+Description: Simple tweak that bypasses jb detection in Axis Bank Mobile Banking.
+Name: Axis Bank Patch
+Author: Superuser1958
+Icon: icons/axisbankpatch.png
+
+Package: org.hekatos.gojekenabler
+Architecture: iphoneos-arm
+Version: 1.0.0
+Section: Tweaks
+Maintainer: Superuser1958 <joshuah345@gmail.com>
+Installed-Size: 216
+Depends: mobilesubstrate
+Filename: ./pool/org.hekatos.gojekenabler_1.0.0_iphoneos-arm.deb
+Size: 3780
+MD5sum: 66183437ef9c3b316d1351b8695ae7a8
+SHA1: a709b0a36fbc79f71793a0ae38af61d4e8d54061
+SHA256: d54bab357fee150f9308547b88fa9c24480555003769f2104c4e631a2d70dd2e
+SHA512: 51f18c141ebc556ed73bff06b0bb6a0ff82a2fb91e267d7963f45174b2afef4e86cf412b5c95ceda48ac166bab10a2efaf8c5c0942e5603b6d98eaab0029c5e2
+Description: Stops the Gojek app from crashing every time you open it.
+Name: GojekEnabler
+Author: Superuser1958
+Icon: https://raw.githubusercontent.com/hekatos/repo/main/publish/icons/gojek.png
+
+Package: org.hekatos.jailedmonkey
+Architecture: iphoneos-arm
+Version: 1.0.1
+Section: Tweaks
+Maintainer: Superuser1958
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0)
+Filename: ./pool/org.hekatos.jailedmonkey_1.0.1_iphoneos-arm.deb
+Size: 3276
+MD5sum: 162eafdf08a4c2357e535a4cbda47394
+SHA1: b74d50b2e6a2833802d0250619381dc1040f5e84
+SHA256: 41b9fb90715f21779ca3825a88969189ef69bafad1b9b234d0df7ea23228daec
+SHA512: 27dbd63811e9e06510a70e4d73a1fd4f73f59212df00dc262c4bae0907203c3c5183c549229e79efcac634886180374d99cc014d61911942ce9c4cb692277630
+Description: Bypass JB Detection In apps using JailMonkey (Currently only for Gympass and Veve)
+Name: JailedMonkey
+Author: Lillie & Superuser1958
+
+Package: org.hekatos.uconnectbypass
+Architecture: iphoneos-arm
+Version: 0.0.1
+Section: Tweaks
+Maintainer: beerpsi, Hekatos contributors <beerpsi@duck.com>
+Installed-Size: 216
+Depends: mobilesubstrate
+Filename: ./pool/org.hekatos.uconnectbypass_0.0.1_iphoneos-arm.deb
+Size: 3814
+MD5sum: 8e9f6dd4a2d2e0c50f6216608a6d7511
+SHA1: ccca8a6774fb9c7d079b89f2913b2ebf4a5578cd
+SHA256: 994a0feeb3882ca315920f102f85338885932fc8425ef7c8cbd760e5bf592c1b
+SHA512: 64872403514d3439a1a22ec276618cf6b3edfdde8cc14e2d04bf7172a86567c58b231080fab7657a4c07c565befda2cee686f395fcbc4789a8c27b2acbc4b424
+Description: Bypasses jailbreak detection in the Uconnect app
+Name: Uconnect Jailbreak Bypass
+Author: ChosenZero
+

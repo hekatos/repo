@@ -1,0 +1,270 @@
+h1 {
+    text-align: center;
+    margin: 25px 30px;
+}
+
+.logo-main {
+    width: 150px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+body>div {
+    display: flex;
+    justify-self: center;
+    flex-direction: column;
+}
+
+.repo-btns>.btn {
+    height: 30px;
+    padding: 10px;
+    text-decoration: none;
+    color: var(--nord6);
+    border-radius: 10px;
+    display: inline-block;
+    width: 100%;
+    max-width: 450px;
+    min-width: 100px;
+    text-shadow: var(--nord4) 3px;
+}
+
+.repo-btns {
+    display: flex;
+    justify-content: center, space-between;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    margin-top: 30px;
+    gap: 40px;
+}
+
+.btn>div>span {
+    float: right;
+    line-height: 30px;
+    padding-right: 10px;
+}
+
+.btn>div>img {
+    width: 2em;
+    padding-left: 10px;
+}
+
+.btn >div
+{
+    overflow: visible;
+}
+
+#installer {
+    background-color: var(--nord8);
+}
+
+#sileo {
+    background-color: var(--nord7);
+}
+
+#zebra {
+    background-color: var(--nord2);
+}
+
+#saily {
+    background-color: var(--nord10);
+}
+
+#cydia {
+    background-color: var(--nord12);
+}
+
+body {
+    background-color: var(--nord1);
+    font-family: Nunito;
+    text-rendering: auto;
+}
+
+html,
+body {
+    height: 100%
+}
+
+img.gh-logo {
+    width: 1.2em;
+    margin-bottom: 0.4em;
+    margin-right: 0.5em;
+    vertical-align: middle;
+    filter: invert(99%) sepia(5%) saturate(1105%) hue-rotate(177deg) brightness(99%) contrast(94%);
+    /* Filter for var(--nord6) */
+}
+
+
+a.link:hover {
+    color: var(--nord15);
+    text-decoration: underline;
+}
+
+p,
+a,
+h1,
+span {
+    color: var(--nord6);
+    text-decoration: none;
+}
+
+#btnbox{
+    border-radius: 10px;
+    display:flex;
+}
+
+
+@media screen and (min-width: 280px) {
+
+    h1 {
+        text-align: center;
+        margin: 25px 30px;
+    }
+
+    img.logo-main {
+        width: 30%;
+        margin-top: 30px;
+
+    }
+
+    .repo-btns>.btn {
+        height: 30px;
+        padding: 10px;
+        text-decoration: none;
+        color: var(--nord6);
+        border-radius: 10px;
+        display: inline-block;
+        width: 100%;
+        max-width: 250px;
+        min-width: 100px;
+        text-shadow: var(--nord4) 3px;
+    }
+
+    .repo-btns {
+        display: flex;
+        justify-content: center, space-between;
+        align-items: center;
+        flex-direction: column;
+        height: 100%;
+        margin-top: 0;
+        gap: 40px;
+    }
+
+    .btn>span {
+        float: right;
+        line-height: 30px;
+        padding-right: 10px;
+    }
+
+    .btn>img {
+        width: 2em;
+        float: left;
+        margin-left: 10px;
+    }
+
+
+    .btn#installer {
+        background-color: var(--nord9);
+    }
+
+    .btn#sileo {
+        background-color: var(--nord7);
+    }
+
+    .btn#zebra {
+        background-color: var(--nord2);
+    }
+
+    .btn#saily {
+        background-color: var(--nord10);
+    }
+
+    #saily > img {
+        border-radius: 5px;
+    }
+
+    #zebra > img {
+        border-radius: 5px;
+    }
+
+    #cydia {
+        background-color: var(--nord12);
+    }
+
+    body {
+        background-color: var(--nord1);
+        font-family: Nunito;
+        text-rendering: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    html,
+    body {
+        height: 100%
+    }
+
+    .link-flex {
+        margin: 40px;
+        display: flex;
+        justify-content: center;
+    }
+
+
+    a.link:hover {
+        color: var(--nord15);
+        text-decoration: underline;
+    }
+
+    p,
+    a,
+    h1,
+    span {
+        color: var(--nord6);
+        text-decoration: none;
+    }
+
+
+}
+
+@media screen and (min-width: 900px) {
+    body {
+        margin: 50px;
+        min-height: 100vh;
+    }
+
+    .group1 {
+        flex: 1;
+        align-content: center;
+    }
+
+    h1 {
+        text-align: center;
+        width: auto;
+    }
+
+    body>div {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .repo-btns {
+        justify-content: right;
+        margin-top: 5%;
+        width: 50vh;
+        flex: 2;
+        gap: 10vh;
+    }
+
+    .repo-btns>.btn {
+        max-width: 450px;
+        width: 100%
+    }
+
+    img.logo-main {
+        width: 150px;
+    }
+
+}

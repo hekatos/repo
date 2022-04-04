@@ -1,0 +1,45 @@
+Architectures: iphoneos-arm
+Codename: hekatos
+Components: main
+Date: Mon, 04 Apr 2022 06:26:55 +0000
+Description: Combatting jailbreak detection, one tweak at a time
+Label: Hekatos
+Origin: Hekatos
+Suite: stable
+Version: 1.0
+MD5Sum:
+ dce73a66896067f4f0c0f909dc001e90             4494 Packages
+ c4c01f39062e85084ff14a82fec713a2             2073 Packages.bz2
+ bb202405375f66a705de8413544f8a8c             2002 Packages.gz
+ cc29a0f61f54dfdcb1b610bef2688fe7             2884 Packages.lz4
+ f901f5e4841cc31b2e0a3b23ad0cdb87             1955 Packages.lzma
+ fff313d7e106d4b66e9b4c4840b2a33a             2000 Packages.xz
+ 90d2f4feebe7d5d68b8bdafaaa2bde5a             1963 Packages.zst
+ d0634c39053c1397e457c0db3feef232              224 Release
+SHA1:
+ 7434d3fd164c3faf337bf8303abbf6706e53e938             4494 Packages
+ f1567a86c98d3861a11931c8b1e4b8279bf0517a             2073 Packages.bz2
+ 9e0d8337154610ec57c413f530c641a70a1c129e             2002 Packages.gz
+ 3b833df820bcccd124b2aa1a7b0a76e30d6647e5             2884 Packages.lz4
+ c15ef58cdced9e4f80dfc03cd48ddbc0d3b02d3c             1955 Packages.lzma
+ 8bf7c50b5f9cd18ebe3a41485030091a4ba8b54a             2000 Packages.xz
+ 4a6b98040d949ac23cd80b5ea471a49486aabc76             1963 Packages.zst
+ edb9702d3fd1bfc1cac00a2380e2a84543b353e6              224 Release
+SHA256:
+ 8beaa38d8c67d7fbda0982d9e87d60199f2b55b7d8098a2a2d09ea89d4e6a6b4             4494 Packages
+ 69ae8dcf261a477810175d002993c8cdfa16a75444701defe9e9f0e7cdd10584             2073 Packages.bz2
+ d788a73dcfb93364eff5ad0ce1f7d4737be669b1cf48fea715821b0d638b8e67             2002 Packages.gz
+ db8bccc813d878c02f9a22600f8c421c37bbad6aaf97dad50c9c1e50b0945810             2884 Packages.lz4
+ f210d7dfb0394a8c14b0c5164571f34f9c7b30993a8cc8f64ce4fcafa5958341             1955 Packages.lzma
+ 4a6ab97b95268b8a7ac10fa00da608a311a77baeb04b4b4bff15a9419ea2c441             2000 Packages.xz
+ 5cc7e948ca8d7bb70eecf5ccd62c94565c52d4dd3850b81794fe107002053a37             1963 Packages.zst
+ ad86579a287900ea1582e652f8c71e14c7861c20673524232a33cb0b61ebab5d              224 Release
+SHA512:
+ e32c92699d5bc0c4e6094c2788c320acc9ad7cf78b6416abe5a0b1f5f514dff0ae6fcf701b9e37e34a63ec68aae9cc7e7a81bb8dc134a2ee75584b3a1ce66d04             4494 Packages
+ ca4684ef6659ae1af01582816e5a5d0a7d2d9b1b7761963d852519ed170dea77ccdfd449d09bc3bf9a3a9afd76f902bd0f50d5e8bef645359f7e92975fa994ba             2073 Packages.bz2
+ 93e9cddaa008cc83508237c51c2ba37f03ae64963eed510ba9b00269598a9f8a271db931e03f774e0bb65d0e77ac02fd203e03cd7d89e69bad6da9ee8d9c712f             2002 Packages.gz
+ 11cd73f03a8fe7b5af16c714889de7e5246262742ae5e473a0c554cfe07bffa4e253122f5cd1c1a01df415512af2214f63f7224fd8413ef9d8fa7c70857b95b3             2884 Packages.lz4
+ 31b9390bb4195e04c3c884436ecb77077649cfea0b2afc2c3fa0a658a08e351fab67608b65639ef2fa298cf61814e2c9362e58ef6cb8d453f35fde889cb79d1e             1955 Packages.lzma
+ 74a5236349ebcd49ea28502bccccad6152d9fac96f97864da82e3dda3af0ddadcf93a9fa24f88fd78f946b9b36d8a4987537219b30f87ce47e9520efb1c02119             2000 Packages.xz
+ 21f735cb9cc9e99318593b1c5e735e087191d297300610398328f420f60c95565103a06536bc5b3cad1afbc63a721a5fb99d338b5ca8cb87498a20bdbcf73f74             1963 Packages.zst
+ e3c9b297f9b0924cccd632732d31fb8193c153564ac11efbd7dfa60748c7c11dcf4bbaec729e457ecd50169814dce355747cf0f086e69716cb51002457101bbc              224 Release
